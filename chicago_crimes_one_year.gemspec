@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["writeclubchicago1 at yahoo.com"]
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
+    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
   end
 
   spec.summary       = %q{A free API Wrapper for Chicago Crimes from present searching back one year from the Chicago Open Data Portal.}
