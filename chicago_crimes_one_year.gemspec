@@ -6,12 +6,8 @@ require 'chicago_crimes_one_year/version'
 Gem::Specification.new do |spec|
   spec.name          = "chicago_crimes_one_year"
   spec.version       = ChicagoCrimesOneYear::VERSION
-  spec.authors       = ["writeclubchicago1 at yahoo.com"]
+  spec.authors       = ["Jeff Carpenter"]
   spec.email         = ["writeclubchicago1 at yahoo.com"]
-
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
-  end
 
   spec.summary       = %q{A free API Wrapper for Chicago Crimes from present searching back one year from the Chicago Open Data Portal.}
   spec.description   = %q{A free API Wrapper for Chicago Crimes from present searching back one year from the Chicago Open Data Portal. See https://data.cityofchicago.org/Public-Safety/Crimes-One-year-prior-to-present/x2n5-8w5q.}
